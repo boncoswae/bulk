@@ -1,0 +1,12 @@
+{
+  "canisters": {
+    "queue": {
+      "type": "rust",
+      "main": "src/queue/lib.rs"
+    },
+    "worker": {
+      "type": "rust",
+      "main": "src/worker/lib.rs"
+    }
+  }
+}
